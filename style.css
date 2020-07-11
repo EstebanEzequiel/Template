@@ -1,0 +1,60 @@
+.encabezado{
+    height: 85vh;
+    width: 100%;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar{
+    font-weight: bold !important;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main{
+    max-width: 70%;
+    text-align: justify;
+    padding: 15px;
+    background-color: white;
+    margin-right: 15px;
+}
+
+.aside{
+    max-width: 27%;
+    text-align: justify;
+    padding: 15px;
+    background-color: white;
+    display: inline-table;
+}
+
+.footer{
+    display: block;
+}
+
+p{
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .main{
+        max-width: 100%;
+        margin: 0;
+    }
+    .aside{
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+
+/* Esta query especifica una hoja de estilo para ser utilizada cuando la ventana tiene un ancho entre 500 y 800 pixeles:
+
+@media screen and (min-width: 500px) and (max-width: 800px) { ... } */
