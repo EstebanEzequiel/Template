@@ -1,5 +1,5 @@
 .encabezado{
-    height: 85vh;
+    height: 91vh;
     width: 100%;
     background-image: url(fondo.jpg);
     background-size: cover;
@@ -29,7 +29,7 @@ nav{
 }
 
 .aside{
-    max-width: 27%;
+    max-width: 28.6%;
     text-align: justify;
     padding: 15px;
     background-color: white;
@@ -37,11 +37,9 @@ nav{
 }
 
 .footer{
-    display: block;
-}
-
-p{
+    background-color: white;
     text-align: center;
+    margin-top: 15px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
@@ -52,6 +50,10 @@ p{
     .aside{
         max-width: 100%;
         margin-top: 15px;
+    }
+
+    #perspectiva{
+        max-width: 150px;
     }
 }
 
