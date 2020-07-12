@@ -1,7 +1,7 @@
 .encabezado{
     height: 91vh;
     width: 100%;
-    background-image: url(fondo.jpg);
+    background-image: url(foto.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,11 +13,14 @@ nav{
 
 .navbar{
     font-weight: bold !important;
+    background-color: dodgerblue;
+    
 }
 
 .container{
     display: flex;
     flex-flow: row wrap;
+    padding-top: 15px;
 }
 
 .main{
@@ -31,15 +34,30 @@ nav{
 .aside{
     max-width: 28.6%;
     text-align: justify;
-    padding: 15px;
+}
+
+.aside1{
+    text-align: justify;    
     background-color: white;
     display: inline-table;
+    padding: 15px;   
+}
+
+.aside2{
+    text-align: justify;    
+    background-color: white;
+    display: inline-table;
+    padding: 15px;   
 }
 
 .footer{
     background-color: white;
     text-align: center;
     margin-top: 15px;
+}
+
+.br{
+    height: 15px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
