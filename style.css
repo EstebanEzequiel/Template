@@ -1,20 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
 .encabezado{
-    height: 91vh;
+    height: 88vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(foto.jpg);
+    background-color: rgba(255, 255, 255, 0.91);
+    background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 nav{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.2);
+    background-color: yellowgreen !important;
+}
+
+h1{
+    font: normal 8vw "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 
 .navbar{
-    font-weight: bold !important;
-    background-color: dodgerblue;
-    
+    line-height: 3;
 }
 
 .container{
@@ -28,50 +40,43 @@ nav{
     text-align: justify;
     padding: 15px;
     background-color: white;
-    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .aside{
-    max-width: 28.6%;
-    text-align: justify;
+    max-width: 27.8%;
+    margin-bottom: 15px;
 }
 
 .aside1{
-    text-align: justify;    
     background-color: white;
-    display: inline-table;
     padding: 15px;   
 }
 
 .aside2{
-    text-align: justify;    
     background-color: white;
-    display: inline-table;
     padding: 15px;   
 }
 
 .footer{
-    background-color: white;
+    background-color: whitesmoke;
     text-align: center;
-    margin-top: 15px;
 }
 
 .br{
     height: 15px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 1023px){
     .main{
         max-width: 100%;
         margin: 0;
+        margin-bottom: 15px;
     }
     .aside{
         max-width: 100%;
         margin-top: 15px;
-    }
-
-    #perspectiva{
-        max-width: 150px;
     }
 }
 
